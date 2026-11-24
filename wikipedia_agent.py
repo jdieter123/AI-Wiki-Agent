@@ -53,7 +53,6 @@ def convert_mcp_tools_to_ollama(mcp_tools):
     ollama_tools = []
 
     for tool in mcp_tools:
-
         ollama_tool = {
             "type": "function",
             "function": {
@@ -66,7 +65,6 @@ def convert_mcp_tools_to_ollama(mcp_tools):
         ollama_tools.append(ollama_tool)
 
     return ollama_tools
-
 
 # summarize history context so history doesnt get too big
 async def summarize_history(ollama, history):

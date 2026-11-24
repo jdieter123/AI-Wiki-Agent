@@ -1,0 +1,7 @@
+MCP stands for Model Context Protocol.
+
+MCP servers expose tools that AI models can use.
+
+Ollama allows us to run language models locally.
+
+Our current AI agent uses Qwen3 4B.
