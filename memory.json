@@ -1,0 +1,14 @@
+{
+    "memories": {
+        "favorite_programming_language": {
+            "category": "preference",
+            "value": "C++",
+            "importance": 3
+        },
+        "current_project": {
+            "category": "project",
+            "value": "building an MCP AI agent (you)",
+            "importance": 3
+        }
+    }
+}
